@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Receba um aviso quando abrirem vagas no Prenot@mi para passaporte, CIE ou cidadania nos consulados da Itália, por WhatsApp ou e-mail.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Alerta Prenot@mi</a></div>
-  <nav class="top"><a href="#oque" data-ev="click_nav_oque">O que você recebe</a><a href="price.html" data-ev="click_nav_preco">Preço</a><a href="#exemplo" data-ev="click_nav_exemplo">Exemplo</a><a href="#start" data-ev="click_nav_start">Começar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Alerta Prenot@mi</a>
+  <nav><a href="#oque" data-ev="click_nav_oque">O que você recebe</a><a href="price.html" data-ev="click_nav_preco">Preço</a><a href="#exemplo" data-ev="click_nav_exemplo">Exemplo</a><a href="#start" data-ev="click_nav_start">Começar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Vaga aberta no Prenot@mi? Você recebe o aviso na hora — passaporte, CIE e cidadania italiana</h1>
-    <p class="sub">Escolha o consulado e o serviço — passaporte, carteira de identidade eletrônica (CIE) ou cidadania — e receba um aviso por WhatsApp, Telegram ou e-mail assim que surgirem vagas no Prenot@mi. Você mesmo faz o agendamento com seu login.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Eu preciso disso</a>
-    <p class="cta-note">Serviço em preparação · Esta página não aceita pagamentos</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> para quem mora no Brasil</p>
+      <h1 class="rise" style="--i:1" data-len="long">Vaga aberta no Prenot@mi? Você recebe o aviso na hora&nbsp;<span class="soft">— passaporte, CIE e cidadania italiana</span></h1>
+      <p class="rise" style="--i:2">Escolha o consulado e o serviço — passaporte, carteira de identidade eletrônica (CIE) ou cidadania — e receba um aviso por WhatsApp, Telegram ou e-mail assim que surgirem vagas no Prenot@mi. Você mesmo faz o agendamento com seu login.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Eu preciso disso</a>
+      <p class="meta rise" style="--i:4">Serviço em preparação · Esta página não aceita pagamentos</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">passaporte</text><line x1="120" y1="210" x2="1080" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="250" width="48" height="48" rx="10" fill="#dfe8f7" /><text x="200" y="286" font-size="32" font-weight="600" fill="#0a1524">Aviso na hora</text><rect x="130" y="350" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="362" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="450" width="48" height="48" rx="10" fill="#12397a" /><rect x="200" y="462" width="200" height="24" rx="12" fill="#b9c3d2" /><rect x="130" y="550" width="48" height="48" rx="10" fill="#dfe8f7" /><rect x="200" y="562" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="700" y="260" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="330" font-size="34" font-weight="600" fill="#0a1524">Curitiba</text><rect x="750" y="470" width="56" height="150" rx="8" fill="#ffffff" /><rect x="830" y="400" width="56" height="220" rx="8" fill="#12397a" /><rect x="910" y="510" width="56" height="110" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Quem mora no Brasil</dd></div>
+      <div><dt>Aviso</dt><dd>Recebe o aviso na hora</dd></div>
+      <div><dt>Como</dt><dd>Aviso por WhatsApp</dd></div>
+      <div><dt>Serviço</dt><dd>Serviço em preparação</dd></div>
+    </dl>
+  </section>
 
   <section id="oque" data-view="features_view">
-    <h2>O que você recebe</h2>
-    <div class="grid">
-      <div class="card"><b>Seu consulado e serviço</b><span>São Paulo, Curitiba, Rio de Janeiro, Porto Alegre e outros; passaporte, CIE ou cidadania.</span><br><a class="btn" href="price.html" data-ev="feature_consulado">Eu preciso disso</a></div>
-      <div class="card"><b>Aviso na hora</b><span>Mensagem por WhatsApp, Telegram ou e-mail quando aparecem vagas para o serviço escolhido.</span><br><a class="btn" href="price.html" data-ev="feature_aviso">Eu preciso disso</a></div>
-      <div class="card"><b>Quando costumam abrir</b><span>Histórico de dias e horários em que as vagas abriram no seu consulado.</span><br><a class="btn" href="price.html" data-ev="feature_horarios">Eu preciso disso</a></div>
-      <div class="card"><b>Passo a passo</b><span>Lista do que deixar pronto antes do aviso, para agendar em segundos.</span><br><a class="btn" href="price.html" data-ev="feature_passos">Eu preciso disso</a></div>
+    <div class="stack"><h2>O que você recebe</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">passaporte, CIE ou cidadania</text><rect x="110" y="180" width="52" height="52" rx="10" fill="#dfe8f7" /><polyline points="122,208 134,220 150,196" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="194" width="280" height="24" rx="12" fill="#dde2ea" /><rect x="110" y="280" width="52" height="52" rx="10" fill="#12397a" /><rect x="190" y="294" width="240" height="24" rx="12" fill="#dde2ea" /><rect x="110" y="380" width="52" height="52" rx="10" fill="#dfe8f7" /><polyline points="122,408 134,420 150,396" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="394" width="200" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>Seu consulado e serviço</h3><p>São Paulo, Curitiba, Rio de Janeiro, Porto Alegre e outros; passaporte, CIE ou cidadania.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_consulado">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Aviso na hora</text><rect x="250" y="180" width="220" height="340" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="310" y="200" width="100" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="250" width="160" height="70" rx="14" fill="#dfe8f7" /><rect x="300" y="340" width="140" height="50" rx="12" fill="#12397a" /><circle cx="360" cy="470" r="16" fill="#b9c3d2" /></svg></div>
+        <h3>Aviso na hora</h3><p>Mensagem por WhatsApp, Telegram ou e-mail quando aparecem vagas para o serviço escolhido.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_aviso">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">dias e horários</text><rect x="120" y="180" width="560" height="320" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="220" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="300" width="90" height="56" rx="8" fill="#12397a" /><rect x="510" y="300" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="150" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="270" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="390" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /><rect x="510" y="380" width="90" height="56" rx="8" fill="#dfe8f7" /></svg></div>
+        <h3>Quando costumam abrir</h3><p>Histórico de dias e horários em que as vagas abriram no seu consulado.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_horarios">Eu preciso disso</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Passo a passo</text><line x1="120" y1="340" x2="680" y2="340" fill="none" stroke="#dde2ea" stroke-width="6" /><rect x="130" y="300" width="120" height="80" rx="28" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="280" y="300" width="120" height="80" rx="28" fill="#dfe8f7" /><rect x="430" y="300" width="120" height="80" rx="28" fill="#12397a" /><rect x="580" y="300" width="120" height="80" rx="28" fill="#dde2ea" /></svg></div>
+        <h3>Passo a passo</h3><p>Lista do que deixar pronto antes do aviso, para agendar em segundos.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_passos">Eu preciso disso</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemplo" data-view="example_view">
-    <h2>Exemplo (dados fictícios)</h2>
-    <p class="fine">Família em Curitiba, passaporte para três pessoas. Alerta configurado para passaporte no consulado de Curitiba. Quinta-feira às 19h02 chega o aviso no WhatsApp; com login e dados já preparados, a família agenda em menos de dois minutos.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Escolha seu plano</a>
+  <section id="exemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemplo</h2>
+      <p>Família em Curitiba, passaporte para três pessoas. Alerta configurado para passaporte no consulado de Curitiba. Quinta-feira às 19h02 chega o aviso no WhatsApp; com login e dados já preparados, a família agenda em menos de dois minutos.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Escolha seu plano</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Curitiba</text><text x="600" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">WhatsApp</text><text x="960" y="230" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">login</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="36" font-weight="600" fill="#0a1524">passaporte</text><rect x="170" y="450" width="70" height="70" rx="12" fill="#dfe8f7" /><rect x="270" y="450" width="70" height="70" rx="12" fill="#12397a" /><rect x="370" y="450" width="70" height="70" rx="12" fill="#dde2ea" /><rect x="470" y="450" width="70" height="70" rx="12" fill="#b9c3d2" /><text x="170" y="640" font-size="32" fill="#566174">a família</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Como funciona</h2>
-    <p>Para muitos descendentes de italianos no Brasil, o difícil não é juntar os documentos, e sim conseguir uma vaga no Prenot@mi, o sistema de agendamento dos consulados da Itália. A procura por passaporte, carteira de identidade eletrônica (CIE) e reconhecimento de cidadania é maior do que a oferta de horários. As vagas aparecem em momentos imprevisíveis e desaparecem em minutos, e quem não está olhando a tela na hora perde a chance.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Como funciona</h2></div>
+    <div class="stack">
+      <p>Para muitos descendentes de italianos no Brasil, o difícil não é juntar os documentos, e sim conseguir uma vaga no Prenot@mi, o sistema de agendamento dos consulados da Itália. A procura por passaporte, carteira de identidade eletrônica (CIE) e reconhecimento de cidadania é maior do que a oferta de horários. As vagas aparecem em momentos imprevisíveis e desaparecem em minutos, e quem não está olhando a tela na hora perde a chance.</p>
     <p>Muitos passam semanas entrando no site várias vezes por dia. O Alerta Prenot@mi faz essa vigilância por você e avisa quando é a hora de entrar. Você não precisa nos passar sua senha: o agendamento é feito por você, com o seu login, no site do consulado.</p>
     <p>Você escolhe o consulado — São Paulo, Curitiba, Rio de Janeiro, Porto Alegre ou outro que use o Prenot@mi — e o serviço: primeira emissão ou renovação de passaporte, CIE ou cidadania. Escolhe também como quer ser avisado: WhatsApp, Telegram ou e-mail. Pode acompanhar mais de um serviço ao mesmo tempo, por exemplo passaporte e CIE.</p>
     <p>Quando o sistema detecta vagas para o que você escolheu, a mensagem chega na hora, com o link direto para a página de agendamento. Do outro lado, você já deve estar preparado: login e senha do Prenot@mi à mão, dados dos familiares e documentos digitalizados. O passo a passo do serviço mostra exatamente o que deixar pronto.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Você pode pausar ou cancelar o alerta a qualquer momento, por exemplo depois de conseguir a vaga. Se precisar de outra vaga no futuro, é só reativar.</p>
     <p>O serviço é para quem mora no Brasil e precisa de atendimento nos consulados italianos. Ele não garante vagas nem acelera processos; ele avisa quando elas aparecem, para que você não perca a oportunidade.</p>
     <p>Não somos o consulado nem o governo italiano e não agimos em seu nome. Não pedimos nem guardamos sua senha do Prenot@mi; o agendamento é sempre feito por você.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Perguntas frequentes</h2>
-    <h3>Vocês fazem o agendamento por mim?</h3>
-    <p>Não. Avisamos quando surgem vagas; o agendamento é feito por você, com o seu login no Prenot@mi.</p>
-    <h3>Preciso informar minha senha?</h3>
-    <p>Não. O serviço não pede nem guarda sua senha.</p>
-    <h3>Quais consulados são acompanhados?</h3>
-    <p>Os consulados da Itália no Brasil que usam o Prenot@mi, como São Paulo, Curitiba, Rio de Janeiro e Porto Alegre.</p>
-    <h3>Vocês garantem a vaga?</h3>
-    <p>Não. Avisamos quando as vagas aparecem; a disponibilidade depende do consulado.</p>
-    <h3>Já posso usar?</h3>
-    <p>Ainda não. O serviço está em preparação e estamos verificando se as pessoas precisam dele.</p>
+    <div class="stack"><h2>Perguntas frequentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Vocês fazem o agendamento por mim?</h3><p>Não. Avisamos quando surgem vagas; o agendamento é feito por você, com o seu login no Prenot@mi.</p></div>
+      <div class="split flip"><h3>Preciso informar minha senha?</h3><p>Não. O serviço não pede nem guarda sua senha.</p></div>
+      <div class="split flip"><h3>Quais consulados são acompanhados?</h3><p>Os consulados da Itália no Brasil que usam o Prenot@mi, como São Paulo, Curitiba, Rio de Janeiro e Porto Alegre.</p></div>
+      <div class="split flip"><h3>Vocês garantem a vaga?</h3><p>Não. Avisamos quando as vagas aparecem; a disponibilidade depende do consulado.</p></div>
+      <div class="split flip"><h3>Já posso usar?</h3><p>Ainda não. O serviço está em preparação e estamos verificando se as pessoas precisam dele.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Escolha seu consulado</h2>
-    <p><label>Consulado<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— escolha —</option><option>São Paulo</option><option>Curitiba</option><option>Rio de Janeiro</option><option>Porto Alegre</option><option>Outro</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Configurar alerta</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Escolha seu consulado</h2>
+    </div>
+    <div class="tile stack">
+      <label>Consulado<select data-ev-focus="form_start"><option value="">— escolha —</option><option>São Paulo</option><option>Curitiba</option><option>Rio de Janeiro</option><option>Porto Alegre</option><option>Outro</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Configurar alerta</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Alerta Prenot@mi</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidade</a></p>
-  <p class="muted">Não somos o consulado nem o governo italiano e não agimos em seu nome. Não pedimos sua senha; o agendamento é feito por você. Não garantimos vagas.</p>
+  <p>Não somos o consulado nem o governo italiano e não agimos em seu nome. Não pedimos sua senha; o agendamento é feito por você. Não garantimos vagas.</p>
 </div></footer>
 
 </body>
